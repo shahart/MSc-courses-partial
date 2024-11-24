@@ -1,0 +1,12 @@
+course 65  2                                                   
+course  8  3                                                   
+course 12  4                                                   
+course 54  5                                                   
+course  7  6                                                   
+course 12  7                                                   
+course 30  1                                                   
+course  7  6                                                   
+course 12  7                                                   
+course 30  1                                                   
+DB_EOF                                                         
+course 30  1                                                   

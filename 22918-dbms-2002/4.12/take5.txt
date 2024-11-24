@@ -1,0 +1,14 @@
+take 30  1 
+take 65  2 
+take  8  3 
+take 12  4 
+take 54  5 
+take  7  6 
+take 12  7 
+take 13  8 
+take 10  9  
+take  3 10   
+take  6 11 
+take  9 12 
+take 23 13  
+take 39 14   
