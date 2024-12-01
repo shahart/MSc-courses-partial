@@ -1,0 +1,10 @@
+Prog Min
+{
+var a:float,
+    b:float2&;
+
+    read(a);
+    read(b);
+    if (a<b)println(a);
+         else peintln(b);
+}.

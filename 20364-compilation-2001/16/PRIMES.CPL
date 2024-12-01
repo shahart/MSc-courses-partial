@@ -1,0 +1,31 @@
+Prog Primes /* ldklf */
+{
+var a:int,  /*current no.*/
+     b:int,
+     stop:int, /*not prime*/
+     a2:float,x:float, /*sqrt*/
+     d:int,c:int;  /*counter*/
+
+      print(2);
+      println(3)
+      c is 2;
+      a is 5;
+      while a <100)
+        {
+        b is 3;
+        stop is 1;
+
+      a2 is a/2.;
+      x is a2;
+      while (x*x-a>10) {
+            x is x*0.5+a2/x;
+       };;
+        while (b<x*stop)
+            {
+            if (a/b*b==a) stop is 0; else b is b+2;;
+            };;
+        if (stop=1) {print(a);c is c+1;}; else {};;
+/*LBL*/       a is a+2;  
+      };;
+       print(c);
+}.

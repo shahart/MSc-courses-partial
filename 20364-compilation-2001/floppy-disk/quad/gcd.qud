@@ -1,0 +1,14 @@
+IINP first
+IINP second
+IDIV result first second
+IPRT result
+IASN count 0
+ILSS less first second
+JMPZ 9 less
+JUMP 12
+ISUB first first second
+IADD count count 1
+JUMP 6
+IPRT count
+HALT
+

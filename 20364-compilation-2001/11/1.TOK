@@ -1,0 +1,45 @@
+Token             Lexeme/Attr
+-----             -----------
+CONSTANT_SYMBOL    e
+POINT              .
+VARIABLE           A
+VARIABLE           _
+VARIABLE           _
+OTHEROP            ;
+REAL_NUMBER        34
+RELOP              =:=
+ABORT              
+ADDOP              -
+MULOP              *
+MULOP              /
+OROP               
+RELOP              =
+ASSIGNOP           
+RELOP              =:=
+RELOP              ==
+RELOP              <
+RELOP              >
+RELOP              =<
+RELOP              >=
+RELOP              =\=
+OTHEROP            :-
+OTHEROP            ;
+MULOP              MOD
+MULOP              EXP
+OTHEROP            ^
+FUNCOP             SIN
+LPAR2              [
+RPAR2              ]
+IMPOR              !
+ARROW              ->
+POINT              .
+LPAR               (
+RPAR               )
+COMMA              ,
+EQ2POINT           
+CALL               
+NAME               
+NL                 
+UNIDENTIFIED       $
+BAGOF              
+CONSTANT_SYMBOL    sdjfkjksjka

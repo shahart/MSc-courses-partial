@@ -1,0 +1,29 @@
+The Programming language L - Lexical Definition
+______________________________________________
+
+
+15 Reserved words
+begin    do     else     end      fi
+if       int    od       print    prog
+read     real   then     var     while   
+
+
+6 Reserved symbols
+(   )   , 
+:   ;   .             (Note: last sign is an endpoint
+
+
+5 Composed tokens
+id:             letter (letter|digit)*
+num:            digit+  |       digit+.digit*
+relop:          =       |       <>      |       <       |       >
+matop:          +       |       -       |       *       |       /
+assign:         :=              
+
+
+
+  Where:  (Note: digit and letter are not tokens)
+   digit:  0  |  1  | ... |  9
+   letter: a  |  b  | ... |  z  |  A  |  B  | ... | Z
+
+

@@ -1,0 +1,22 @@
+RINP a  
+RDIV x a 2.0
+IASN stop 0 
+  IEQL _i0 stop 0
+  JMPZ 20 _i0 
+RDIV _f0 x 2.0
+RMLT _f1 2.0 x
+RDIV _f1 a _f1
+RADD x _f0 _f1
+RMLT _f0 x x
+RSUB delta _f0 a
+RLSS _i1 delta 0.0001
+JMPZ 19 _i1 
+  RSUB _f0 0. 0.0001
+  RGRT _i2 delta _f0
+  JMPZ 18 _i2 
+IASN stop 1 
+  JUMP 19  
+JUMP 4  
+  RPRT a  
+  RPRT x  
+  HALT   

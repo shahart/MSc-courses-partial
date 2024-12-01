@@ -1,0 +1,3229 @@
+PC=  1                       2 PRINTED
+PC=  2                       3 PRINTED
+PC=  3   c=         2
+PC=  4   a=         5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=    5.0000
+PC= 10   a2=    2.5000
+PC= 11   x=    2.5000
+PC= 12   _f0=    6.2500
+PC= 13   _f1=    5.0000
+PC= 14   _f0=    1.2500
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    2.5000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                       5 PRINTED
+PC= 37   c=         3
+PC= 38   a=         7
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=    7.0000
+PC= 10   a2=    3.5000
+PC= 11   x=    3.5000
+PC= 12   _f0=   12.2500
+PC= 13   _f1=    7.0000
+PC= 14   _f0=    5.2500
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    3.5000
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         2
+PC= 27   _i2=         6
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    3.5000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                       7 PRINTED
+PC= 37   c=         4
+PC= 38   a=         9
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=    9.0000
+PC= 10   a2=    4.5000
+PC= 11   x=    4.5000
+PC= 12   _f0=   20.2500
+PC= 13   _f1=    9.0000
+PC= 14   _f0=   11.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    2.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    3.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   10.5625
+PC= 13   _f1=    9.0000
+PC= 14   _f0=    1.5625
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    3.2500
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         3
+PC= 27   _i2=         9
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        11
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   11.0000
+PC= 10   a2=    5.5000
+PC= 11   x=    5.5000
+PC= 12   _f0=   30.2500
+PC= 13   _f1=   11.0000
+PC= 14   _f0=   19.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    2.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    3.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   14.0625
+PC= 13   _f1=   11.0000
+PC= 14   _f0=    3.0625
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    3.7500
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         3
+PC= 27   _i2=         9
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    3.7500
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      11 PRINTED
+PC= 37   c=         5
+PC= 38   a=        13
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   13.0000
+PC= 10   a2=    6.5000
+PC= 11   x=    6.5000
+PC= 12   _f0=   42.2500
+PC= 13   _f1=   13.0000
+PC= 14   _f0=   29.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    4.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   18.0625
+PC= 13   _f1=   13.0000
+PC= 14   _f0=    5.0625
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.2500
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         4
+PC= 27   _i2=        12
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.2500
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      13 PRINTED
+PC= 37   c=         6
+PC= 38   a=        15
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   15.0000
+PC= 10   a2=    7.5000
+PC= 11   x=    7.5000
+PC= 12   _f0=   56.2500
+PC= 13   _f1=   15.0000
+PC= 14   _f0=   41.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    4.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   22.5625
+PC= 13   _f1=   15.0000
+PC= 14   _f0=    7.5625
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.7500
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         5
+PC= 27   _i2=        15
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        17
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   17.0000
+PC= 10   a2=    8.5000
+PC= 11   x=    8.5000
+PC= 12   _f0=   72.2500
+PC= 13   _f1=   17.0000
+PC= 14   _f0=   55.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    5.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   27.5625
+PC= 13   _f1=   17.0000
+PC= 14   _f0=   10.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    2.6250
+PC= 18   _f1=    1.6190
+PC= 19   x=    4.2440
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   18.0119
+PC= 13   _f1=   17.0000
+PC= 14   _f0=    1.0119
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.2440
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         5
+PC= 27   _i2=        15
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.2440
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      17 PRINTED
+PC= 37   c=         7
+PC= 38   a=        19
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   19.0000
+PC= 10   a2=    9.5000
+PC= 11   x=    9.5000
+PC= 12   _f0=   90.2500
+PC= 13   _f1=   19.0000
+PC= 14   _f0=   71.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    5.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   33.0625
+PC= 13   _f1=   19.0000
+PC= 14   _f0=   14.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    2.8750
+PC= 18   _f1=    1.6522
+PC= 19   x=    4.5272
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   20.4953
+PC= 13   _f1=   19.0000
+PC= 14   _f0=    1.4953
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.5272
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         6
+PC= 27   _i2=        18
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.5272
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      19 PRINTED
+PC= 37   c=         8
+PC= 38   a=        21
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   21.0000
+PC= 10   a2=   10.5000
+PC= 11   x=   10.5000
+PC= 12   _f0=  110.2500
+PC= 13   _f1=   21.0000
+PC= 14   _f0=   89.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    6.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   39.0625
+PC= 13   _f1=   21.0000
+PC= 14   _f0=   18.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.1250
+PC= 18   _f1=    1.6800
+PC= 19   x=    4.8050
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   23.0880
+PC= 13   _f1=   21.0000
+PC= 14   _f0=    2.0880
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    4.8050
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        21
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        23
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   23.0000
+PC= 10   a2=   11.5000
+PC= 11   x=   11.5000
+PC= 12   _f0=  132.2500
+PC= 13   _f1=   23.0000
+PC= 14   _f0=  109.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    6.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   45.5625
+PC= 13   _f1=   23.0000
+PC= 14   _f0=   22.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.3750
+PC= 18   _f1=    1.7037
+PC= 19   x=    5.0787
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   25.7932
+PC= 13   _f1=   23.0000
+PC= 14   _f0=    2.7932
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.0787
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        21
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.0787
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         4
+PC= 27   _i2=        20
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.0787
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      23 PRINTED
+PC= 37   c=         9
+PC= 38   a=        25
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   25.0000
+PC= 10   a2=   12.5000
+PC= 11   x=   12.5000
+PC= 12   _f0=  156.2500
+PC= 13   _f1=   25.0000
+PC= 14   _f0=  131.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    7.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   52.5625
+PC= 13   _f1=   25.0000
+PC= 14   _f0=   27.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.6250
+PC= 18   _f1=    1.7241
+PC= 19   x=    5.3491
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   28.6133
+PC= 13   _f1=   25.0000
+PC= 14   _f0=    3.6133
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.3491
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        24
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.3491
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         5
+PC= 27   _i2=        25
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        27
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   27.0000
+PC= 10   a2=   13.5000
+PC= 11   x=   13.5000
+PC= 12   _f0=  182.2500
+PC= 13   _f1=   27.0000
+PC= 14   _f0=  155.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    7.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   60.0625
+PC= 13   _f1=   27.0000
+PC= 14   _f0=   33.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.8750
+PC= 18   _f1=    1.7419
+PC= 19   x=    5.6169
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   31.5500
+PC= 13   _f1=   27.0000
+PC= 14   _f0=    4.5500
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.6169
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        27
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        29
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   29.0000
+PC= 10   a2=   14.5000
+PC= 11   x=   14.5000
+PC= 12   _f0=  210.2500
+PC= 13   _f1=   29.0000
+PC= 14   _f0=  181.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    8.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   68.0625
+PC= 13   _f1=   29.0000
+PC= 14   _f0=   39.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.1250
+PC= 18   _f1=    1.7576
+PC= 19   x=    5.8826
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   34.6047
+PC= 13   _f1=   29.0000
+PC= 14   _f0=    5.6047
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.8826
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        27
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.8826
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         5
+PC= 27   _i2=        25
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    5.8826
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      29 PRINTED
+PC= 37   c=        10
+PC= 38   a=        31
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   31.0000
+PC= 10   a2=   15.5000
+PC= 11   x=   15.5000
+PC= 12   _f0=  240.2500
+PC= 13   _f1=   31.0000
+PC= 14   _f0=  209.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    8.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   76.5625
+PC= 13   _f1=   31.0000
+PC= 14   _f0=   45.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.3750
+PC= 18   _f1=    1.7714
+PC= 19   x=    6.1464
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   37.7786
+PC= 13   _f1=   31.0000
+PC= 14   _f0=    6.7786
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1464
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        10
+PC= 27   _i2=        30
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1464
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         6
+PC= 27   _i2=        30
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1464
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      31 PRINTED
+PC= 37   c=        11
+PC= 38   a=        33
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   33.0000
+PC= 10   a2=   16.5000
+PC= 11   x=   16.5000
+PC= 12   _f0=  272.2500
+PC= 13   _f1=   33.0000
+PC= 14   _f0=  239.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=    9.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   85.5625
+PC= 13   _f1=   33.0000
+PC= 14   _f0=   52.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.6250
+PC= 18   _f1=    1.7838
+PC= 19   x=    6.4088
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   41.0725
+PC= 13   _f1=   33.0000
+PC= 14   _f0=    8.0725
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.4088
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        33
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        35
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   35.0000
+PC= 10   a2=   17.5000
+PC= 11   x=   17.5000
+PC= 12   _f0=  306.2500
+PC= 13   _f1=   35.0000
+PC= 14   _f0=  271.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=    9.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   95.0625
+PC= 13   _f1=   35.0000
+PC= 14   _f0=   60.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.8750
+PC= 18   _f1=    1.7949
+PC= 19   x=    6.6699
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   44.4872
+PC= 13   _f1=   35.0000
+PC= 14   _f0=    9.4872
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.6699
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        33
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.6699
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        35
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        37
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   37.0000
+PC= 10   a2=   18.5000
+PC= 11   x=   18.5000
+PC= 12   _f0=  342.2500
+PC= 13   _f1=   37.0000
+PC= 14   _f0=  305.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   10.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  105.0625
+PC= 13   _f1=   37.0000
+PC= 14   _f0=   68.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.1250
+PC= 18   _f1=    1.8049
+PC= 19   x=    6.9299
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   48.0232
+PC= 13   _f1=   37.0000
+PC= 14   _f0=   11.0232
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.4649
+PC= 18   _f1=    2.6696
+PC= 19   x=    6.1345
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   37.6326
+PC= 13   _f1=   37.0000
+PC= 14   _f0=    0.6326
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1345
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        12
+PC= 27   _i2=        36
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1345
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        35
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.1345
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      37 PRINTED
+PC= 37   c=        12
+PC= 38   a=        39
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   39.0000
+PC= 10   a2=   19.5000
+PC= 11   x=   19.5000
+PC= 12   _f0=  380.2500
+PC= 13   _f1=   39.0000
+PC= 14   _f0=  341.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   10.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  115.5625
+PC= 13   _f1=   39.0000
+PC= 14   _f0=   76.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.3750
+PC= 18   _f1=    1.8140
+PC= 19   x=    7.1890
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   51.6811
+PC= 13   _f1=   39.0000
+PC= 14   _f0=   12.6811
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.5945
+PC= 18   _f1=    2.7125
+PC= 19   x=    6.3070
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   39.7779
+PC= 13   _f1=   39.0000
+PC= 14   _f0=    0.7779
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.3070
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        39
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        41
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   41.0000
+PC= 10   a2=   20.5000
+PC= 11   x=   20.5000
+PC= 12   _f0=  420.2500
+PC= 13   _f1=   41.0000
+PC= 14   _f0=  379.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   11.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  126.5625
+PC= 13   _f1=   41.0000
+PC= 14   _f0=   85.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.6250
+PC= 18   _f1=    1.8222
+PC= 19   x=    7.4472
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   55.4611
+PC= 13   _f1=   41.0000
+PC= 14   _f0=   14.4611
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.7236
+PC= 18   _f1=    2.7527
+PC= 19   x=    6.4763
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   41.9427
+PC= 13   _f1=   41.0000
+PC= 14   _f0=    0.9427
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.4763
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        39
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.4763
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        40
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.4763
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      41 PRINTED
+PC= 37   c=        13
+PC= 38   a=        43
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   43.0000
+PC= 10   a2=   21.5000
+PC= 11   x=   21.5000
+PC= 12   _f0=  462.2500
+PC= 13   _f1=   43.0000
+PC= 14   _f0=  419.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   11.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  138.0625
+PC= 13   _f1=   43.0000
+PC= 14   _f0=   95.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.8750
+PC= 18   _f1=    1.8298
+PC= 19   x=    7.7048
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   59.3637
+PC= 13   _f1=   43.0000
+PC= 14   _f0=   16.3637
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.8524
+PC= 18   _f1=    2.7905
+PC= 19   x=    6.6429
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   44.1277
+PC= 13   _f1=   43.0000
+PC= 14   _f0=    1.1277
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.6429
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        14
+PC= 27   _i2=        42
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.6429
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        40
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.6429
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      43 PRINTED
+PC= 37   c=        14
+PC= 38   a=        45
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   45.0000
+PC= 10   a2=   22.5000
+PC= 11   x=   22.5000
+PC= 12   _f0=  506.2500
+PC= 13   _f1=   45.0000
+PC= 14   _f0=  461.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   12.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  150.0625
+PC= 13   _f1=   45.0000
+PC= 14   _f0=  105.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.1250
+PC= 18   _f1=    1.8367
+PC= 19   x=    7.9617
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   63.3892
+PC= 13   _f1=   45.0000
+PC= 14   _f0=   18.3892
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    3.9809
+PC= 18   _f1=    2.8260
+PC= 19   x=    6.8069
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   46.3337
+PC= 13   _f1=   45.0000
+PC= 14   _f0=    1.3337
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.8069
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        15
+PC= 27   _i2=        45
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        47
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   47.0000
+PC= 10   a2=   23.5000
+PC= 11   x=   23.5000
+PC= 12   _f0=  552.2500
+PC= 13   _f1=   47.0000
+PC= 14   _f0=  505.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   12.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  162.5625
+PC= 13   _f1=   47.0000
+PC= 14   _f0=  115.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.3750
+PC= 18   _f1=    1.8431
+PC= 19   x=    8.2181
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   67.5378
+PC= 13   _f1=   47.0000
+PC= 14   _f0=   20.5378
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.1091
+PC= 18   _f1=    2.8595
+PC= 19   x=    6.9686
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   48.5613
+PC= 13   _f1=   47.0000
+PC= 14   _f0=    1.5613
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.9686
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        15
+PC= 27   _i2=        45
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.9686
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        45
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    6.9686
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      47 PRINTED
+PC= 37   c=        15
+PC= 38   a=        49
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   49.0000
+PC= 10   a2=   24.5000
+PC= 11   x=   24.5000
+PC= 12   _f0=  600.2500
+PC= 13   _f1=   49.0000
+PC= 14   _f0=  551.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   13.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  175.5625
+PC= 13   _f1=   49.0000
+PC= 14   _f0=  126.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.6250
+PC= 18   _f1=    1.8491
+PC= 19   x=    8.4741
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   71.8096
+PC= 13   _f1=   49.0000
+PC= 14   _f0=   22.8096
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.2370
+PC= 18   _f1=    2.8912
+PC= 19   x=    7.1282
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   50.8113
+PC= 13   _f1=   49.0000
+PC= 14   _f0=    1.8113
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.1282
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        16
+PC= 27   _i2=        48
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.1282
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        45
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.1282
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        49
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        51
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   51.0000
+PC= 10   a2=   25.5000
+PC= 11   x=   25.5000
+PC= 12   _f0=  650.2500
+PC= 13   _f1=   51.0000
+PC= 14   _f0=  599.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   13.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  189.0625
+PC= 13   _f1=   51.0000
+PC= 14   _f0=  138.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.8750
+PC= 18   _f1=    1.8545
+PC= 19   x=    8.7295
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   76.2050
+PC= 13   _f1=   51.0000
+PC= 14   _f0=   25.2050
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.3648
+PC= 18   _f1=    2.9211
+PC= 19   x=    7.2859
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   53.0841
+PC= 13   _f1=   51.0000
+PC= 14   _f0=    2.0841
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.2859
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        17
+PC= 27   _i2=        51
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        53
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   53.0000
+PC= 10   a2=   26.5000
+PC= 11   x=   26.5000
+PC= 12   _f0=  702.2500
+PC= 13   _f1=   53.0000
+PC= 14   _f0=  649.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   13.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   14.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  203.0625
+PC= 13   _f1=   53.0000
+PC= 14   _f0=  150.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.1250
+PC= 18   _f1=    1.8596
+PC= 19   x=    8.9846
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   80.7239
+PC= 13   _f1=   53.0000
+PC= 14   _f0=   27.7239
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.4923
+PC= 18   _f1=    2.9495
+PC= 19   x=    7.4418
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   55.3804
+PC= 13   _f1=   53.0000
+PC= 14   _f0=    2.3804
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.4418
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        17
+PC= 27   _i2=        51
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.4418
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        10
+PC= 27   _i2=        50
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.4418
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         7
+PC= 27   _i2=        49
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.4418
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      53 PRINTED
+PC= 37   c=        16
+PC= 38   a=        55
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   55.0000
+PC= 10   a2=   27.5000
+PC= 11   x=   27.5000
+PC= 12   _f0=  756.2500
+PC= 13   _f1=   55.0000
+PC= 14   _f0=  701.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   13.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   14.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  217.5625
+PC= 13   _f1=   55.0000
+PC= 14   _f0=  162.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.3750
+PC= 18   _f1=    1.8644
+PC= 19   x=    9.2394
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   85.3666
+PC= 13   _f1=   55.0000
+PC= 14   _f0=   30.3666
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.6197
+PC= 18   _f1=    2.9764
+PC= 19   x=    7.5961
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   57.7005
+PC= 13   _f1=   55.0000
+PC= 14   _f0=    2.7005
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.5961
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        18
+PC= 27   _i2=        54
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.5961
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        55
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        57
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   57.0000
+PC= 10   a2=   28.5000
+PC= 11   x=   28.5000
+PC= 12   _f0=  812.2500
+PC= 13   _f1=   57.0000
+PC= 14   _f0=  755.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   14.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   15.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  232.5625
+PC= 13   _f1=   57.0000
+PC= 14   _f0=  175.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.6250
+PC= 18   _f1=    1.8689
+PC= 19   x=    9.4939
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   90.1332
+PC= 13   _f1=   57.0000
+PC= 14   _f0=   33.1332
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.7469
+PC= 18   _f1=    3.0019
+PC= 19   x=    7.7489
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   60.0450
+PC= 13   _f1=   57.0000
+PC= 14   _f0=    3.0450
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.7489
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        19
+PC= 27   _i2=        57
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        59
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   59.0000
+PC= 10   a2=   29.5000
+PC= 11   x=   29.5000
+PC= 12   _f0=  870.2500
+PC= 13   _f1=   59.0000
+PC= 14   _f0=  811.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   14.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   15.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  248.0625
+PC= 13   _f1=   59.0000
+PC= 14   _f0=  189.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.8750
+PC= 18   _f1=    1.8730
+PC= 19   x=    9.7480
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   95.0238
+PC= 13   _f1=   59.0000
+PC= 14   _f0=   36.0238
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.8740
+PC= 18   _f1=    3.0263
+PC= 19   x=    7.9003
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   62.4142
+PC= 13   _f1=   59.0000
+PC= 14   _f0=    3.4142
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.9003
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        19
+PC= 27   _i2=        57
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.9003
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        55
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.9003
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        56
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    7.9003
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      59 PRINTED
+PC= 37   c=        17
+PC= 38   a=        61
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   61.0000
+PC= 10   a2=   30.5000
+PC= 11   x=   30.5000
+PC= 12   _f0=  930.2500
+PC= 13   _f1=   61.0000
+PC= 14   _f0=  869.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   15.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   16.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  264.0625
+PC= 13   _f1=   61.0000
+PC= 14   _f0=  203.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.1250
+PC= 18   _f1=    1.8769
+PC= 19   x=   10.0019
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  100.0385
+PC= 13   _f1=   61.0000
+PC= 14   _f0=   39.0385
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.0010
+PC= 18   _f1=    3.0494
+PC= 19   x=    8.0504
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   64.8085
+PC= 13   _f1=   61.0000
+PC= 14   _f0=    3.8085
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.0504
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        20
+PC= 27   _i2=        60
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.0504
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        12
+PC= 27   _i2=        60
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.0504
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        56
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.0504
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      61 PRINTED
+PC= 37   c=        18
+PC= 38   a=        63
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   63.0000
+PC= 10   a2=   31.5000
+PC= 11   x=   31.5000
+PC= 12   _f0=  992.2500
+PC= 13   _f1=   63.0000
+PC= 14   _f0=  929.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   15.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   16.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  280.5625
+PC= 13   _f1=   63.0000
+PC= 14   _f0=  217.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.3750
+PC= 18   _f1=    1.8806
+PC= 19   x=   10.2556
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  105.1773
+PC= 13   _f1=   63.0000
+PC= 14   _f0=   42.1773
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.1278
+PC= 18   _f1=    3.0715
+PC= 19   x=    8.1993
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   67.2284
+PC= 13   _f1=   63.0000
+PC= 14   _f0=    4.2284
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.1993
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        21
+PC= 27   _i2=        63
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        65
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   65.0000
+PC= 10   a2=   32.5000
+PC= 11   x=   32.5000
+PC= 12   _f0= 1056.2500
+PC= 13   _f1=   65.0000
+PC= 14   _f0=  991.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   16.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   17.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  297.5625
+PC= 13   _f1=   65.0000
+PC= 14   _f0=  232.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.6250
+PC= 18   _f1=    1.8841
+PC= 19   x=   10.5091
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  110.4403
+PC= 13   _f1=   65.0000
+PC= 14   _f0=   45.4403
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.2545
+PC= 18   _f1=    3.0926
+PC= 19   x=    8.3471
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   69.6741
+PC= 13   _f1=   65.0000
+PC= 14   _f0=    4.6741
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.3471
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        21
+PC= 27   _i2=        63
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.3471
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        65
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        67
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   67.0000
+PC= 10   a2=   33.5000
+PC= 11   x=   33.5000
+PC= 12   _f0= 1122.2500
+PC= 13   _f1=   67.0000
+PC= 14   _f0= 1055.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   16.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   17.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  315.0625
+PC= 13   _f1=   67.0000
+PC= 14   _f0=  248.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    8.8750
+PC= 18   _f1=    1.8873
+PC= 19   x=   10.7623
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  115.8276
+PC= 13   _f1=   67.0000
+PC= 14   _f0=   48.8276
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.3812
+PC= 18   _f1=    3.1127
+PC= 19   x=    8.4939
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   72.1459
+PC= 13   _f1=   67.0000
+PC= 14   _f0=    5.1459
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.4939
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        22
+PC= 27   _i2=        66
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.4939
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        65
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.4939
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        63
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.4939
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      67 PRINTED
+PC= 37   c=        19
+PC= 38   a=        69
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   69.0000
+PC= 10   a2=   34.5000
+PC= 11   x=   34.5000
+PC= 12   _f0= 1190.2500
+PC= 13   _f1=   69.0000
+PC= 14   _f0= 1121.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   17.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   18.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  333.0625
+PC= 13   _f1=   69.0000
+PC= 14   _f0=  264.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.1250
+PC= 18   _f1=    1.8904
+PC= 19   x=   11.0154
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  121.3393
+PC= 13   _f1=   69.0000
+PC= 14   _f0=   52.3393
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.5077
+PC= 18   _f1=    3.1320
+PC= 19   x=    8.6397
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   74.6441
+PC= 13   _f1=   69.0000
+PC= 14   _f0=    5.6441
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.6397
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        23
+PC= 27   _i2=        69
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        71
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   71.0000
+PC= 10   a2=   35.5000
+PC= 11   x=   35.5000
+PC= 12   _f0= 1260.2500
+PC= 13   _f1=   71.0000
+PC= 14   _f0= 1189.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   17.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   18.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  351.5625
+PC= 13   _f1=   71.0000
+PC= 14   _f0=  280.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.3750
+PC= 18   _f1=    1.8933
+PC= 19   x=   11.2683
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  126.9753
+PC= 13   _f1=   71.0000
+PC= 14   _f0=   55.9753
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.6342
+PC= 18   _f1=    3.1504
+PC= 19   x=    8.7846
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   77.1690
+PC= 13   _f1=   71.0000
+PC= 14   _f0=    6.1690
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.7846
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        23
+PC= 27   _i2=        69
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.7846
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        14
+PC= 27   _i2=        70
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.7846
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        10
+PC= 27   _i2=        70
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.7846
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      71 PRINTED
+PC= 37   c=        20
+PC= 38   a=        73
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   73.0000
+PC= 10   a2=   36.5000
+PC= 11   x=   36.5000
+PC= 12   _f0= 1332.2500
+PC= 13   _f1=   73.0000
+PC= 14   _f0= 1259.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   18.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   19.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  370.5625
+PC= 13   _f1=   73.0000
+PC= 14   _f0=  297.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.6250
+PC= 18   _f1=    1.8961
+PC= 19   x=   11.5211
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  132.7358
+PC= 13   _f1=   73.0000
+PC= 14   _f0=   59.7358
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.7606
+PC= 18   _f1=    3.1681
+PC= 19   x=    8.9287
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   79.7208
+PC= 13   _f1=   73.0000
+PC= 14   _f0=    6.7208
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.9287
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        24
+PC= 27   _i2=        72
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.9287
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        14
+PC= 27   _i2=        70
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.9287
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        10
+PC= 27   _i2=        70
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    8.9287
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      73 PRINTED
+PC= 37   c=        21
+PC= 38   a=        75
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   75.0000
+PC= 10   a2=   37.5000
+PC= 11   x=   37.5000
+PC= 12   _f0= 1406.2500
+PC= 13   _f1=   75.0000
+PC= 14   _f0= 1331.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   18.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   19.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  390.0625
+PC= 13   _f1=   75.0000
+PC= 14   _f0=  315.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    9.8750
+PC= 18   _f1=    1.8987
+PC= 19   x=   11.7737
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  138.6208
+PC= 13   _f1=   75.0000
+PC= 14   _f0=   63.6208
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.8869
+PC= 18   _f1=    3.1851
+PC= 19   x=    9.0719
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   82.2998
+PC= 13   _f1=   75.0000
+PC= 14   _f0=    7.2998
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.0719
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        25
+PC= 27   _i2=        75
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        77
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   77.0000
+PC= 10   a2=   38.5000
+PC= 11   x=   38.5000
+PC= 12   _f0= 1482.2500
+PC= 13   _f1=   77.0000
+PC= 14   _f0= 1405.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   19.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   20.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  410.0625
+PC= 13   _f1=   77.0000
+PC= 14   _f0=  333.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.1250
+PC= 18   _f1=    1.9012
+PC= 19   x=   12.0262
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  144.6303
+PC= 13   _f1=   77.0000
+PC= 14   _f0=   67.6303
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.0131
+PC= 18   _f1=    3.2013
+PC= 19   x=    9.2145
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   84.9061
+PC= 13   _f1=   77.0000
+PC= 14   _f0=    7.9061
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.2145
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        25
+PC= 27   _i2=        75
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.2145
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        15
+PC= 27   _i2=        75
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.2145
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        77
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        79
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   79.0000
+PC= 10   a2=   39.5000
+PC= 11   x=   39.5000
+PC= 12   _f0= 1560.2500
+PC= 13   _f1=   79.0000
+PC= 14   _f0= 1481.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   19.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   20.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  430.5625
+PC= 13   _f1=   79.0000
+PC= 14   _f0=  351.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.3750
+PC= 18   _f1=    1.9036
+PC= 19   x=   12.2786
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  150.7644
+PC= 13   _f1=   79.0000
+PC= 14   _f0=   71.7644
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.1393
+PC= 18   _f1=    3.2170
+PC= 19   x=    9.3563
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   87.5400
+PC= 13   _f1=   79.0000
+PC= 14   _f0=    8.5400
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3563
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        26
+PC= 27   _i2=        78
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3563
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        15
+PC= 27   _i2=        75
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3563
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        77
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3563
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         8
+PC= 27   _i2=        72
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=        11
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=   11.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3563
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      79 PRINTED
+PC= 37   c=        22
+PC= 38   a=        81
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   81.0000
+PC= 10   a2=   40.5000
+PC= 11   x=   40.5000
+PC= 12   _f0= 1640.2500
+PC= 13   _f1=   81.0000
+PC= 14   _f0= 1559.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   20.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   21.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  451.5625
+PC= 13   _f1=   81.0000
+PC= 14   _f0=  370.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.6250
+PC= 18   _f1=    1.9059
+PC= 19   x=   12.5309
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  157.0230
+PC= 13   _f1=   81.0000
+PC= 14   _f0=   76.0230
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.2654
+PC= 18   _f1=    3.2320
+PC= 19   x=    9.4975
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   90.2017
+PC= 13   _f1=   81.0000
+PC= 14   _f0=    9.2017
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4975
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        27
+PC= 27   _i2=        81
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        83
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   83.0000
+PC= 10   a2=   41.5000
+PC= 11   x=   41.5000
+PC= 12   _f0= 1722.2500
+PC= 13   _f1=   83.0000
+PC= 14   _f0= 1639.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   20.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   21.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  473.0625
+PC= 13   _f1=   83.0000
+PC= 14   _f0=  390.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   10.8750
+PC= 18   _f1=    1.9080
+PC= 19   x=   12.7830
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  163.4063
+PC= 13   _f1=   83.0000
+PC= 14   _f0=   80.4063
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.3915
+PC= 18   _f1=    3.2465
+PC= 19   x=    9.6380
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   92.8912
+PC= 13   _f1=   83.0000
+PC= 14   _f0=    9.8912
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6380
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        27
+PC= 27   _i2=        81
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6380
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        16
+PC= 27   _i2=        80
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6380
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        11
+PC= 27   _i2=        77
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6380
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        81
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=        11
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=   11.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6380
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      83 PRINTED
+PC= 37   c=        23
+PC= 38   a=        85
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   85.0000
+PC= 10   a2=   42.5000
+PC= 11   x=   42.5000
+PC= 12   _f0= 1806.2500
+PC= 13   _f1=   85.0000
+PC= 14   _f0= 1721.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   21.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   22.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  495.0625
+PC= 13   _f1=   85.0000
+PC= 14   _f0=  410.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.1250
+PC= 18   _f1=    1.9101
+PC= 19   x=   13.0351
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  169.9142
+PC= 13   _f1=   85.0000
+PC= 14   _f0=   84.9142
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.5176
+PC= 18   _f1=    3.2604
+PC= 19   x=    9.7780
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   95.6089
+PC= 13   _f1=   85.0000
+PC= 14   _f0=   10.6089
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.8890
+PC= 18   _f1=    4.3465
+PC= 19   x=    9.2355
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   85.2943
+PC= 13   _f1=   85.0000
+PC= 14   _f0=    0.2943
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.2355
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        28
+PC= 27   _i2=        84
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.2355
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        17
+PC= 27   _i2=        85
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        87
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   87.0000
+PC= 10   a2=   43.5000
+PC= 11   x=   43.5000
+PC= 12   _f0= 1892.2500
+PC= 13   _f1=   87.0000
+PC= 14   _f0= 1805.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   21.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   22.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  517.5625
+PC= 13   _f1=   87.0000
+PC= 14   _f0=  430.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.3750
+PC= 18   _f1=    1.9121
+PC= 19   x=   13.2871
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  176.5467
+PC= 13   _f1=   87.0000
+PC= 14   _f0=   89.5467
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.6435
+PC= 18   _f1=    3.2739
+PC= 19   x=    9.9174
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   98.3548
+PC= 13   _f1=   87.0000
+PC= 14   _f0=   11.3548
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    4.9587
+PC= 18   _f1=    4.3862
+PC= 19   x=    9.3449
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   87.3277
+PC= 13   _f1=   87.0000
+PC= 14   _f0=    0.3277
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.3449
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        29
+PC= 27   _i2=        87
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        89
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   89.0000
+PC= 10   a2=   44.5000
+PC= 11   x=   44.5000
+PC= 12   _f0= 1980.2500
+PC= 13   _f1=   89.0000
+PC= 14   _f0= 1891.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   22.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   23.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  540.5625
+PC= 13   _f1=   89.0000
+PC= 14   _f0=  451.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.6250
+PC= 18   _f1=    1.9140
+PC= 19   x=   13.5390
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  183.3039
+PC= 13   _f1=   89.0000
+PC= 14   _f0=   94.3039
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.7695
+PC= 18   _f1=    3.2868
+PC= 19   x=   10.0563
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  101.1291
+PC= 13   _f1=   89.0000
+PC= 14   _f0=   12.1291
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.0281
+PC= 18   _f1=    4.4251
+PC= 19   x=    9.4532
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   89.3637
+PC= 13   _f1=   89.0000
+PC= 14   _f0=    0.3637
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4532
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        29
+PC= 27   _i2=        87
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4532
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        17
+PC= 27   _i2=        85
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4532
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        12
+PC= 27   _i2=        84
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4532
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=         9
+PC= 27   _i2=        81
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=        11
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=   11.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.4532
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      89 PRINTED
+PC= 37   c=        24
+PC= 38   a=        91
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   91.0000
+PC= 10   a2=   45.5000
+PC= 11   x=   45.5000
+PC= 12   _f0= 2070.2500
+PC= 13   _f1=   91.0000
+PC= 14   _f0= 1979.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   22.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   23.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  564.0625
+PC= 13   _f1=   91.0000
+PC= 14   _f0=  473.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   11.8750
+PC= 18   _f1=    1.9158
+PC= 19   x=   13.7908
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  190.1859
+PC= 13   _f1=   91.0000
+PC= 14   _f0=   99.1859
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    6.8954
+PC= 18   _f1=    3.2993
+PC= 19   x=   10.1947
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  103.9319
+PC= 13   _f1=   91.0000
+PC= 14   _f0=   12.9319
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.0973
+PC= 18   _f1=    4.4631
+PC= 19   x=    9.5605
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   91.4023
+PC= 13   _f1=   91.0000
+PC= 14   _f0=    0.4023
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.5605
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        30
+PC= 27   _i2=        90
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.5605
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        18
+PC= 27   _i2=        90
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.5605
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        91
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        93
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   93.0000
+PC= 10   a2=   46.5000
+PC= 11   x=   46.5000
+PC= 12   _f0= 2162.2500
+PC= 13   _f1=   93.0000
+PC= 14   _f0= 2069.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   23.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   24.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  588.0625
+PC= 13   _f1=   93.0000
+PC= 14   _f0=  495.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.1250
+PC= 18   _f1=    1.9175
+PC= 19   x=   14.0425
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  197.1925
+PC= 13   _f1=   93.0000
+PC= 14   _f0=  104.1925
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.0213
+PC= 18   _f1=    3.3114
+PC= 19   x=   10.3326
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  106.7633
+PC= 13   _f1=   93.0000
+PC= 14   _f0=   13.7633
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.1663
+PC= 18   _f1=    4.5003
+PC= 19   x=    9.6666
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   93.4436
+PC= 13   _f1=   93.0000
+PC= 14   _f0=    0.4436
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.6666
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        31
+PC= 27   _i2=        93
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        95
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   95.0000
+PC= 10   a2=   47.5000
+PC= 11   x=   47.5000
+PC= 12   _f0= 2256.2500
+PC= 13   _f1=   95.0000
+PC= 14   _f0= 2161.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   23.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   24.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  612.5625
+PC= 13   _f1=   95.0000
+PC= 14   _f0=  517.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.3750
+PC= 18   _f1=    1.9192
+PC= 19   x=   14.2942
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  204.3239
+PC= 13   _f1=   95.0000
+PC= 14   _f0=  109.3239
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.1471
+PC= 18   _f1=    3.3230
+PC= 19   x=   10.4701
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  109.6235
+PC= 13   _f1=   95.0000
+PC= 14   _f0=   14.6235
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.2351
+PC= 18   _f1=    4.5367
+PC= 19   x=    9.7718
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   95.4877
+PC= 13   _f1=   95.0000
+PC= 14   _f0=    0.4877
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.7718
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        31
+PC= 27   _i2=        93
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.7718
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        19
+PC= 27   _i2=        95
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=        97
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   97.0000
+PC= 10   a2=   48.5000
+PC= 11   x=   48.5000
+PC= 12   _f0= 2352.2500
+PC= 13   _f1=   97.0000
+PC= 14   _f0= 2255.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   24.2500
+PC= 18   _f1=    1.0000
+PC= 19   x=   25.2500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  637.5625
+PC= 13   _f1=   97.0000
+PC= 14   _f0=  540.5625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.6250
+PC= 18   _f1=    1.9208
+PC= 19   x=   14.5458
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  211.5801
+PC= 13   _f1=   97.0000
+PC= 14   _f0=  114.5801
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.2729
+PC= 18   _f1=    3.3343
+PC= 19   x=   10.6072
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  112.5126
+PC= 13   _f1=   97.0000
+PC= 14   _f0=   15.5126
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.3036
+PC= 18   _f1=    4.5724
+PC= 19   x=    9.8760
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   97.5347
+PC= 13   _f1=   97.0000
+PC= 14   _f0=    0.5347
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.8760
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        32
+PC= 27   _i2=        96
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         5
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    5.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.8760
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        19
+PC= 27   _i2=        95
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         7
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    7.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.8760
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        13
+PC= 27   _i2=        91
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=         9
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    9.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.8760
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        10
+PC= 27   _i2=        90
+PC= 28   _i2=         0
+PC= 29   _i2=         0   SO JUMP TO/CONTINUE AT PC : 32
+PC= 32   b=        11
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=   11.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.8760
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         1
+PC= 35   _i1=         1   SO JUMP TO/CONTINUE AT PC : 36
+PC= 36                      97 PRINTED
+PC= 37   c=        25
+PC= 38   a=        99
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         1
+PC=  6   _i0=         1   SO JUMP TO/CONTINUE AT PC :  7
+PC=  7   b=         3
+PC=  8   stop=         1
+PC=  9   _f0=   99.0000
+PC= 10   a2=   49.5000
+PC= 11   x=   49.5000
+PC= 12   _f0= 2450.2500
+PC= 13   _f1=   99.0000
+PC= 14   _f0= 2351.2500
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   24.7500
+PC= 18   _f1=    1.0000
+PC= 19   x=   25.7500
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  663.0625
+PC= 13   _f1=   99.0000
+PC= 14   _f0=  564.0625
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=   12.8750
+PC= 18   _f1=    1.9223
+PC= 19   x=   14.7973
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  218.9610
+PC= 13   _f1=   99.0000
+PC= 14   _f0=  119.9610
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    7.3987
+PC= 18   _f1=    3.3452
+PC= 19   x=   10.7439
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=  115.4306
+PC= 13   _f1=   99.0000
+PC= 14   _f0=   16.4306
+PC= 15   _i1=         1
+PC= 16   _i1=         1   SO JUMP TO/CONTINUE AT PC : 17
+PC= 17   _f0=    5.3719
+PC= 18   _f1=    4.6073
+PC= 19   x=    9.9792
+PC= 20                  JUMP TO PC : 12
+PC= 12   _f0=   99.5847
+PC= 13   _f1=   99.0000
+PC= 14   _f0=    0.5847
+PC= 15   _i1=         0
+PC= 16   _i1=         0   SO JUMP TO/CONTINUE AT PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    1.0000
+PC= 23   _f0=    9.9792
+PC= 24   _i1=         1
+PC= 25   _i1=         1   SO JUMP TO/CONTINUE AT PC : 26
+PC= 26   _i2=        33
+PC= 27   _i2=        99
+PC= 28   _i2=         1
+PC= 29   _i2=         1   SO JUMP TO/CONTINUE AT PC : 30
+PC= 30   stop=         0
+PC= 31                  JUMP TO PC : 33
+PC= 33                  JUMP TO PC : 21
+PC= 21   _f1=    3.0000
+PC= 22   _f0=    0.0000
+PC= 23   _f0=    0.0000
+PC= 24   _i1=         0
+PC= 25   _i1=         0   SO JUMP TO/CONTINUE AT PC : 34
+PC= 34   _i1=         0
+PC= 35   _i1=         0   SO JUMP TO/CONTINUE AT PC : 38
+PC= 38   a=       101
+PC= 39                  JUMP TO PC :  5
+PC=  5   _i0=         0
+PC=  6   _i0=         0   SO JUMP TO/CONTINUE AT PC : 40
+PC= 40                      25 PRINTED
+PC= 41

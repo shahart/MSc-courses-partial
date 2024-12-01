@@ -1,0 +1,25 @@
+    1  Prog 9 Primes /* ldklf */
+    2  {
+    3  var a:int,
+            � Lexical Error: ID is too long!
+    4       b30490940934:int,
+    5       stop:int;
+    6  
+                      � Lexical Error: Invalid character(s)!
+    7        println(2&@#$/);
+    8        println(3);
+    9        a is 5;
+   10        while(a<34)
+   11          {
+   12          b is 2;
+   13          stop is 1;
+   14          while (b<stop*a/2)
+   15              {
+   16              if (a/b*b==a) stop is 0;
+   17              b is b+1;
+   18              }
+   19          if(stop==1) println(a);
+   20          a is a+2;
+   21          }
+   22  }.
+   23  

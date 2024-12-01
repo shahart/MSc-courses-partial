@@ -47,9 +47,9 @@ public class TrafficLights extends JApplet implements Runnable {
 		   durations[3]=durations[1];
 
 		   light[0]=0;          // red 
-		   light[2]=light[0];   // ψξζεψ πβγι
-		   light[1]=2;          // green - ξιξιο μ"ΰγεν
-		   light[3]=light[1];   // πβγι μ-1 εμλο ζδδ
+		   light[2]=light[0];   // Χ¨ΧΧ–Χ•Χ¨ Χ Χ’Χ“Χ™
+		   light[1]=2;          // green - ΧΧ™ΧΧ™Χ Χ"ΧΧ“Χ•Χ
+		   light[3]=light[1];   // Χ Χ’Χ“Χ™ Χ-1 Χ•ΧΧ›Χ Χ–Χ”Χ”
 
 		   timer=new Thread(this);
 		   timer.start();
@@ -69,11 +69,11 @@ public class TrafficLights extends JApplet implements Runnable {
 		  m_image=createImage(400,130);
 		  // make a double buffer
 		  m_g=m_image.getGraphics();
-		  // φιεψ ψξζεψ ψλα
+		  // Χ¦Χ™Χ•Χ¨ Χ¨ΧΧ–Χ•Χ¨ Χ¨Χ›Χ‘
 		  m_g.setColor(Color.gray);
 		  for (i=0; i<LIGHTS; i++)
 			 m_g.fillRect(100*i,0,80,100);
-		  // ψξζεψ δεμλι ψβμ
+		  // Χ¨ΧΧ–Χ•Χ¨ Χ”Χ•ΧΧ›Χ™ Χ¨Χ’Χ
 		  m_g.setColor(Color.black);
 		  for (i=0; i<LIGHTS; i++)
 		     m_g.drawRect(34+100*i,110,11,21);
@@ -81,18 +81,18 @@ public class TrafficLights extends JApplet implements Runnable {
 
        for (i=0; i<LIGHTS; i++) {
 		  Color[] shows={Color.red,Color.orange,Color.green};
-       	  // ξηχ ΰεψ ψλα χεγν
+       	  // ΧΧ—Χ§ ΧΧ•Χ¨ Χ¨Χ›Χ‘ Χ§Χ•Χ“Χ
 		  m_g.setColor(Color.gray);
 		  for (int j=0; j<COLORS; j++)
 			 m_g.fillOval(30+100*i,5+35*j,20,20);
-          // φιεψ ΰεψ πεληι
+          // Χ¦Χ™Χ•Χ¨ ΧΧ•Χ¨ Χ Χ•Χ›Χ—Χ™
 		  m_g.setColor(shows[light[i]]);
 		  m_g.fillOval(30+100*i,5+35*light[i],20,20);
-          // ξηχ ΰεψ δεμλι ψβμ
+          // ΧΧ—Χ§ ΧΧ•Χ¨ Χ”Χ•ΧΧ›Χ™ Χ¨Χ’Χ
 		  m_g.setColor(getBackground());
 		  m_g.fillRect(35+100*i,120,10,10);
 		  m_g.fillRect(35+100*i,110,10,10);
-          // φιεψ ΰεψ δεμλι ψβμ
+          // Χ¦Χ™Χ•Χ¨ ΧΧ•Χ¨ Χ”Χ•ΧΧ›Χ™ Χ¨Χ’Χ
 		  if (light[i]!=0) {
 		     m_g.setColor(Color.red);
   		     m_g.fillRect(35+100*i,110,10,10);
@@ -111,8 +111,8 @@ public class TrafficLights extends JApplet implements Runnable {
 		  walk=1-walk;
 		  for (int i=0; i<LIGHTS; i++) {
 			 past[i]++;
-			 // δΰν δψξζεψ γμεχ μτι δζξο δχφεα με ?
-			 // εδΰν ΰηγ ξωΰψ δΰεψεϊ αεθμ ?
+			 // Χ”ΧΧ Χ”Χ¨ΧΧ–Χ•Χ¨ Χ“ΧΧ•Χ§ ΧΧ¤Χ™ Χ”Χ–ΧΧ Χ”Χ§Χ¦Χ•Χ‘ ΧΧ• ?
+			 // Χ•Χ”ΧΧ ΧΧ—Χ“ ΧΧ©ΧΧ¨ Χ”ΧΧ•Χ¨Χ•Χª Χ‘Χ•ΧΧ ?
 			 for (int j=0; j<COLORS && past[i]>=durations[i][light[i]]; j++) {
 				past[i]=0;
 				light[i]=(light[i]+1)%COLORS;

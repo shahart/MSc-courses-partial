@@ -1,0 +1,22 @@
+Prog 9 Primes /* ldklf */
+{
+var a:int,
+     b30490940934:int,
+     stop:int;
+
+      println(2&@#$/);
+      println(3);
+      a is 5;
+      while(a<34)
+        {
+        b is 2;
+        stop is 1;
+        while (b<stop*a/2)
+            {
+            if (a/b*b==a) stop is 0;
+            b is b+1;
+            }
+        if(stop==1) println(a);
+        a is a+2;
+        }
+}.

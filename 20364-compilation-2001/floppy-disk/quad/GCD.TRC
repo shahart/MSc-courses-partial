@@ -1,0 +1,10 @@
+PC=  1   first=         4
+PC=  2   second=        56
+PC=  3   result=         0
+PC=  4                       0 PRINTED
+PC=  5   count=         0
+PC=  6   less=         1
+PC=  7   less=         1   SO JUMP TO/CONTINUE AT PC :  8
+PC=  8                  JUMP TO PC : 12
+PC= 12                       0 PRINTED
+PC= 13

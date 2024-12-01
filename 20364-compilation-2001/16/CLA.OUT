@@ -1,0 +1,1014 @@
+Conflict in state 64 between rule 21 and token or resolved as reduce.
+Conflict in state 64 between rule 21 and token and resolved as shift.
+Conflict in state 65 between rule 20 and token or resolved as reduce.
+Conflict in state 65 between rule 20 and token and resolved as reduce.
+Conflict in state 68 between rule 22 and token '+' resolved as reduce.
+Conflict in state 68 between rule 22 and token '-' resolved as reduce.
+Conflict in state 68 between rule 22 and token '*' resolved as shift.
+Conflict in state 68 between rule 22 and token '/' resolved as shift.
+Conflict in state 69 between rule 23 and token '+' resolved as reduce.
+Conflict in state 69 between rule 23 and token '-' resolved as reduce.
+Conflict in state 69 between rule 23 and token '*' resolved as shift.
+Conflict in state 69 between rule 23 and token '/' resolved as shift.
+Conflict in state 70 between rule 24 and token '+' resolved as reduce.
+Conflict in state 70 between rule 24 and token '-' resolved as reduce.
+Conflict in state 70 between rule 24 and token '*' resolved as reduce.
+Conflict in state 70 between rule 24 and token '/' resolved as reduce.
+Conflict in state 71 between rule 25 and token '+' resolved as reduce.
+Conflict in state 71 between rule 25 and token '-' resolved as reduce.
+Conflict in state 71 between rule 25 and token '*' resolved as reduce.
+Conflict in state 71 between rule 25 and token '/' resolved as reduce.
+
+Grammar
+rule 1    PROGRAM -> Prog PROGID '{' var DECLIST ';' STMTLIST '}' '.'
+rule 2    PROGID -> ID
+rule 3    DECLIST -> DECLIST ',' ONEVAR
+rule 4    DECLIST -> ONEVAR
+rule 5    UID -> ID
+rule 6    ONEVAR -> UID ':' int_
+rule 7    ONEVAR -> UID ':' float_
+rule 8    STMTLIST -> STMTLIST STMT
+rule 9    STMTLIST ->		/* empty */
+rule 10   STMT -> if_ '(' BOOLEXPR ')' STMT DUMMY else_ STMT ';'
+rule 11   STMT -> while_ '(' BOOLEXPR ')' STMT ';'
+rule 12   STMT -> read '(' UID ')' ';'
+rule 13   STMT -> print '(' EXPRESSION ')' ';'
+rule 14   STMT -> UID is EXPRESSION ';'
+rule 15   STMT -> '{' STMTLIST '}' ';'
+rule 16   STMT -> error ';'
+rule 17   DUMMY ->		/* empty */
+rule 18   BOOLEXPR -> EXPRESSION RELOP EXPRESSION
+rule 19   BOOLEXPR -> '(' BOOLEXPR ')'
+rule 20   BOOLEXPR -> BOOLEXPR and BOOLEXPR
+rule 21   BOOLEXPR -> BOOLEXPR or BOOLEXPR
+rule 22   EXPRESSION -> EXPRESSION '+' EXPRESSION
+rule 23   EXPRESSION -> EXPRESSION '-' EXPRESSION
+rule 24   EXPRESSION -> EXPRESSION '*' EXPRESSION
+rule 25   EXPRESSION -> EXPRESSION '/' EXPRESSION
+rule 26   EXPRESSION -> '(' EXPRESSION ')'
+rule 27   EXPRESSION -> UID
+rule 28   EXPRESSION -> FLOAT_NUM
+rule 29   EXPRESSION -> INT_NUM
+
+Terminals, with rules where they appear
+
+$ (-1)
+'(' (40) 10 11 12 13 19 26
+')' (41) 10 11 12 13 19 26
+'*' (42) 24
+'+' (43) 22
+',' (44) 3
+'-' (45) 23
+'.' (46) 1
+'/' (47) 25
+':' (58) 6 7
+';' (59) 1 10 11 12 13 14 15 16
+'{' (123) 1 15
+'}' (125) 1 15
+error (256) 16
+INT_NUM (258) 29
+FLOAT_NUM (259) 28
+ID (260) 2 5
+int_ (261) 6
+float_ (262) 7
+if_ (263) 10
+else_ (264) 10
+while_ (265) 11
+print (266) 13
+read (267) 12
+Prog (268) 1
+var (269) 1
+is (270) 14
+RELOP (271) 18
+or (272) 21
+and (273) 20
+
+Nonterminals, with rules where they appear
+
+PROGRAM (31)
+    on left: 1
+PROGID (32)
+    on left: 2, on right: 1
+DECLIST (33)
+    on left: 3 4, on right: 1 3
+UID (34)
+    on left: 5, on right: 6 7 12 14 27
+ONEVAR (35)
+    on left: 6 7, on right: 3 4
+STMTLIST (36)
+    on left: 8 9, on right: 1 8 15
+STMT (37)
+    on left: 10 11 12 13 14 15 16, on right: 8 10 11
+DUMMY (38)
+    on left: 17, on right: 10
+BOOLEXPR (39)
+    on left: 18 19 20 21, on right: 10 11 19 20 21
+EXPRESSION (40)
+    on left: 22 23 24 25 26 27 28 29, on right: 13 14 18 22 23 24 25
+    26
+
+
+state 0
+
+    Prog	shift, and go to state 1
+
+    PROGRAM	go to state 80
+
+
+
+state 1
+
+    PROGRAM  ->  Prog . PROGID '{' var DECLIST ';' STMTLIST '}' '.'   (rule 1)
+
+    ID  	shift, and go to state 2
+
+    PROGID	go to state 3
+
+
+
+state 2
+
+    PROGID  ->  ID .   (rule 2)
+
+    $default	reduce using rule 2 (PROGID)
+
+
+
+state 3
+
+    PROGRAM  ->  Prog PROGID . '{' var DECLIST ';' STMTLIST '}' '.'   (rule 1)
+
+    '{' 	shift, and go to state 4
+
+
+
+state 4
+
+    PROGRAM  ->  Prog PROGID '{' . var DECLIST ';' STMTLIST '}' '.'   (rule 1)
+
+    var 	shift, and go to state 5
+
+
+
+state 5
+
+    PROGRAM  ->  Prog PROGID '{' var . DECLIST ';' STMTLIST '}' '.'   (rule 1)
+
+    ID  	shift, and go to state 6
+
+    DECLIST	go to state 7
+    UID 	go to state 8
+    ONEVAR	go to state 9
+
+
+
+state 6
+
+    UID  ->  ID .   (rule 5)
+
+    $default	reduce using rule 5 (UID)
+
+
+
+state 7
+
+    PROGRAM  ->  Prog PROGID '{' var DECLIST . ';' STMTLIST '}' '.'   (rule 1)
+    DECLIST  ->  DECLIST . ',' ONEVAR   (rule 3)
+
+    ';' 	shift, and go to state 10
+    ',' 	shift, and go to state 11
+
+
+
+state 8
+
+    ONEVAR  ->  UID . ':' int_   (rule 6)
+    ONEVAR  ->  UID . ':' float_   (rule 7)
+
+    ':' 	shift, and go to state 12
+
+
+
+state 9
+
+    DECLIST  ->  ONEVAR .   (rule 4)
+
+    $default	reduce using rule 4 (DECLIST)
+
+
+
+state 10
+
+    PROGRAM  ->  Prog PROGID '{' var DECLIST ';' . STMTLIST '}' '.'   (rule 1)
+
+    $default	reduce using rule 9 (STMTLIST)
+
+    STMTLIST	go to state 13
+
+
+
+state 11
+
+    DECLIST  ->  DECLIST ',' . ONEVAR   (rule 3)
+
+    ID  	shift, and go to state 6
+
+    UID 	go to state 8
+    ONEVAR	go to state 14
+
+
+
+state 12
+
+    ONEVAR  ->  UID ':' . int_   (rule 6)
+    ONEVAR  ->  UID ':' . float_   (rule 7)
+
+    int_	shift, and go to state 15
+    float_	shift, and go to state 16
+
+
+
+state 13
+
+    PROGRAM  ->  Prog PROGID '{' var DECLIST ';' STMTLIST . '}' '.'   (rule 1)
+    STMTLIST  ->  STMTLIST . STMT   (rule 8)
+
+    error	shift, and go to state 17
+    ID  	shift, and go to state 6
+    if_ 	shift, and go to state 18
+    while_	shift, and go to state 19
+    print	shift, and go to state 20
+    read	shift, and go to state 21
+    '{' 	shift, and go to state 22
+    '}' 	shift, and go to state 23
+
+    UID 	go to state 24
+    STMT	go to state 25
+
+
+
+state 14
+
+    DECLIST  ->  DECLIST ',' ONEVAR .   (rule 3)
+
+    $default	reduce using rule 3 (DECLIST)
+
+
+
+state 15
+
+    ONEVAR  ->  UID ':' int_ .   (rule 6)
+
+    $default	reduce using rule 6 (ONEVAR)
+
+
+
+state 16
+
+    ONEVAR  ->  UID ':' float_ .   (rule 7)
+
+    $default	reduce using rule 7 (ONEVAR)
+
+
+
+state 17
+
+    STMT  ->  error . ';'   (rule 16)
+
+    ';' 	shift, and go to state 26
+
+
+
+state 18
+
+    STMT  ->  if_ . '(' BOOLEXPR ')' STMT DUMMY else_ STMT ';'   (rule 10)
+
+    '(' 	shift, and go to state 27
+
+
+
+state 19
+
+    STMT  ->  while_ . '(' BOOLEXPR ')' STMT ';'   (rule 11)
+
+    '(' 	shift, and go to state 28
+
+
+
+state 20
+
+    STMT  ->  print . '(' EXPRESSION ')' ';'   (rule 13)
+
+    '(' 	shift, and go to state 29
+
+
+
+state 21
+
+    STMT  ->  read . '(' UID ')' ';'   (rule 12)
+
+    '(' 	shift, and go to state 30
+
+
+
+state 22
+
+    STMT  ->  '{' . STMTLIST '}' ';'   (rule 15)
+
+    $default	reduce using rule 9 (STMTLIST)
+
+    STMTLIST	go to state 31
+
+
+
+state 23
+
+    PROGRAM  ->  Prog PROGID '{' var DECLIST ';' STMTLIST '}' . '.'   (rule 1)
+
+    '.' 	shift, and go to state 32
+
+
+
+state 24
+
+    STMT  ->  UID . is EXPRESSION ';'   (rule 14)
+
+    is  	shift, and go to state 33
+
+
+
+state 25
+
+    STMTLIST  ->  STMTLIST STMT .   (rule 8)
+
+    $default	reduce using rule 8 (STMTLIST)
+
+
+
+state 26
+
+    STMT  ->  error ';' .   (rule 16)
+
+    $default	reduce using rule 16 (STMT)
+
+
+
+state 27
+
+    STMT  ->  if_ '(' . BOOLEXPR ')' STMT DUMMY else_ STMT ';'   (rule 10)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 36
+
+    UID 	go to state 37
+    BOOLEXPR	go to state 38
+    EXPRESSION	go to state 39
+
+
+
+state 28
+
+    STMT  ->  while_ '(' . BOOLEXPR ')' STMT ';'   (rule 11)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 36
+
+    UID 	go to state 37
+    BOOLEXPR	go to state 40
+    EXPRESSION	go to state 39
+
+
+
+state 29
+
+    STMT  ->  print '(' . EXPRESSION ')' ';'   (rule 13)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 42
+
+
+
+state 30
+
+    STMT  ->  read '(' . UID ')' ';'   (rule 12)
+
+    ID  	shift, and go to state 6
+
+    UID 	go to state 43
+
+
+
+state 31
+
+    STMTLIST  ->  STMTLIST . STMT   (rule 8)
+    STMT  ->  '{' STMTLIST . '}' ';'   (rule 15)
+
+    error	shift, and go to state 17
+    ID  	shift, and go to state 6
+    if_ 	shift, and go to state 18
+    while_	shift, and go to state 19
+    print	shift, and go to state 20
+    read	shift, and go to state 21
+    '{' 	shift, and go to state 22
+    '}' 	shift, and go to state 44
+
+    UID 	go to state 24
+    STMT	go to state 25
+
+
+
+state 32
+
+    PROGRAM  ->  Prog PROGID '{' var DECLIST ';' STMTLIST '}' '.' .   (rule 1)
+
+    $default	reduce using rule 1 (PROGRAM)
+
+
+
+state 33
+
+    STMT  ->  UID is . EXPRESSION ';'   (rule 14)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 45
+
+
+
+state 34
+
+    EXPRESSION  ->  INT_NUM .   (rule 29)
+
+    $default	reduce using rule 29 (EXPRESSION)
+
+
+
+state 35
+
+    EXPRESSION  ->  FLOAT_NUM .   (rule 28)
+
+    $default	reduce using rule 28 (EXPRESSION)
+
+
+
+state 36
+
+    BOOLEXPR  ->  '(' . BOOLEXPR ')'   (rule 19)
+    EXPRESSION  ->  '(' . EXPRESSION ')'   (rule 26)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 36
+
+    UID 	go to state 37
+    BOOLEXPR	go to state 46
+    EXPRESSION	go to state 47
+
+
+
+state 37
+
+    EXPRESSION  ->  UID .   (rule 27)
+
+    $default	reduce using rule 27 (EXPRESSION)
+
+
+
+state 38
+
+    STMT  ->  if_ '(' BOOLEXPR . ')' STMT DUMMY else_ STMT ';'   (rule 10)
+    BOOLEXPR  ->  BOOLEXPR . and BOOLEXPR   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR . or BOOLEXPR   (rule 21)
+
+    or  	shift, and go to state 48
+    and 	shift, and go to state 49
+    ')' 	shift, and go to state 50
+
+
+
+state 39
+
+    BOOLEXPR  ->  EXPRESSION . RELOP EXPRESSION   (rule 18)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    RELOP	shift, and go to state 51
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+
+
+
+state 40
+
+    STMT  ->  while_ '(' BOOLEXPR . ')' STMT ';'   (rule 11)
+    BOOLEXPR  ->  BOOLEXPR . and BOOLEXPR   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR . or BOOLEXPR   (rule 21)
+
+    or  	shift, and go to state 48
+    and 	shift, and go to state 49
+    ')' 	shift, and go to state 56
+
+
+
+state 41
+
+    EXPRESSION  ->  '(' . EXPRESSION ')'   (rule 26)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 57
+
+
+
+state 42
+
+    STMT  ->  print '(' EXPRESSION . ')' ';'   (rule 13)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+    ')' 	shift, and go to state 58
+
+
+
+state 43
+
+    STMT  ->  read '(' UID . ')' ';'   (rule 12)
+
+    ')' 	shift, and go to state 59
+
+
+
+state 44
+
+    STMT  ->  '{' STMTLIST '}' . ';'   (rule 15)
+
+    ';' 	shift, and go to state 60
+
+
+
+state 45
+
+    STMT  ->  UID is EXPRESSION . ';'   (rule 14)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+    ';' 	shift, and go to state 61
+
+
+
+state 46
+
+    BOOLEXPR  ->  '(' BOOLEXPR . ')'   (rule 19)
+    BOOLEXPR  ->  BOOLEXPR . and BOOLEXPR   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR . or BOOLEXPR   (rule 21)
+
+    or  	shift, and go to state 48
+    and 	shift, and go to state 49
+    ')' 	shift, and go to state 62
+
+
+
+state 47
+
+    BOOLEXPR  ->  EXPRESSION . RELOP EXPRESSION   (rule 18)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+    EXPRESSION  ->  '(' EXPRESSION . ')'   (rule 26)
+
+    RELOP	shift, and go to state 51
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+    ')' 	shift, and go to state 63
+
+
+
+state 48
+
+    BOOLEXPR  ->  BOOLEXPR or . BOOLEXPR   (rule 21)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 36
+
+    UID 	go to state 37
+    BOOLEXPR	go to state 64
+    EXPRESSION	go to state 39
+
+
+
+state 49
+
+    BOOLEXPR  ->  BOOLEXPR and . BOOLEXPR   (rule 20)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 36
+
+    UID 	go to state 37
+    BOOLEXPR	go to state 65
+    EXPRESSION	go to state 39
+
+
+
+state 50
+
+    STMT  ->  if_ '(' BOOLEXPR ')' . STMT DUMMY else_ STMT ';'   (rule 10)
+
+    error	shift, and go to state 17
+    ID  	shift, and go to state 6
+    if_ 	shift, and go to state 18
+    while_	shift, and go to state 19
+    print	shift, and go to state 20
+    read	shift, and go to state 21
+    '{' 	shift, and go to state 22
+
+    UID 	go to state 24
+    STMT	go to state 66
+
+
+
+state 51
+
+    BOOLEXPR  ->  EXPRESSION RELOP . EXPRESSION   (rule 18)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 67
+
+
+
+state 52
+
+    EXPRESSION  ->  EXPRESSION '+' . EXPRESSION   (rule 22)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 68
+
+
+
+state 53
+
+    EXPRESSION  ->  EXPRESSION '-' . EXPRESSION   (rule 23)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 69
+
+
+
+state 54
+
+    EXPRESSION  ->  EXPRESSION '*' . EXPRESSION   (rule 24)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 70
+
+
+
+state 55
+
+    EXPRESSION  ->  EXPRESSION '/' . EXPRESSION   (rule 25)
+
+    INT_NUM	shift, and go to state 34
+    FLOAT_NUM	shift, and go to state 35
+    ID  	shift, and go to state 6
+    '(' 	shift, and go to state 41
+
+    UID 	go to state 37
+    EXPRESSION	go to state 71
+
+
+
+state 56
+
+    STMT  ->  while_ '(' BOOLEXPR ')' . STMT ';'   (rule 11)
+
+    error	shift, and go to state 17
+    ID  	shift, and go to state 6
+    if_ 	shift, and go to state 18
+    while_	shift, and go to state 19
+    print	shift, and go to state 20
+    read	shift, and go to state 21
+    '{' 	shift, and go to state 22
+
+    UID 	go to state 24
+    STMT	go to state 72
+
+
+
+state 57
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+    EXPRESSION  ->  '(' EXPRESSION . ')'   (rule 26)
+
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+    ')' 	shift, and go to state 63
+
+
+
+state 58
+
+    STMT  ->  print '(' EXPRESSION ')' . ';'   (rule 13)
+
+    ';' 	shift, and go to state 73
+
+
+
+state 59
+
+    STMT  ->  read '(' UID ')' . ';'   (rule 12)
+
+    ';' 	shift, and go to state 74
+
+
+
+state 60
+
+    STMT  ->  '{' STMTLIST '}' ';' .   (rule 15)
+
+    $default	reduce using rule 15 (STMT)
+
+
+
+state 61
+
+    STMT  ->  UID is EXPRESSION ';' .   (rule 14)
+
+    $default	reduce using rule 14 (STMT)
+
+
+
+state 62
+
+    BOOLEXPR  ->  '(' BOOLEXPR ')' .   (rule 19)
+
+    $default	reduce using rule 19 (BOOLEXPR)
+
+
+
+state 63
+
+    EXPRESSION  ->  '(' EXPRESSION ')' .   (rule 26)
+
+    $default	reduce using rule 26 (EXPRESSION)
+
+
+
+state 64
+
+    BOOLEXPR  ->  BOOLEXPR . and BOOLEXPR   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR . or BOOLEXPR   (rule 21)
+    BOOLEXPR  ->  BOOLEXPR or BOOLEXPR .   (rule 21)
+
+    and 	shift, and go to state 49
+
+    $default	reduce using rule 21 (BOOLEXPR)
+
+
+
+state 65
+
+    BOOLEXPR  ->  BOOLEXPR . and BOOLEXPR   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR and BOOLEXPR .   (rule 20)
+    BOOLEXPR  ->  BOOLEXPR . or BOOLEXPR   (rule 21)
+
+
+    $default	reduce using rule 20 (BOOLEXPR)
+
+
+
+state 66
+
+    STMT  ->  if_ '(' BOOLEXPR ')' STMT . DUMMY else_ STMT ';'   (rule 10)
+
+    $default	reduce using rule 17 (DUMMY)
+
+    DUMMY	go to state 75
+
+
+
+state 67
+
+    BOOLEXPR  ->  EXPRESSION RELOP EXPRESSION .   (rule 18)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    '+' 	shift, and go to state 52
+    '-' 	shift, and go to state 53
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+
+    $default	reduce using rule 18 (BOOLEXPR)
+
+
+
+state 68
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION '+' EXPRESSION .   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+
+    $default	reduce using rule 22 (EXPRESSION)
+
+
+
+state 69
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION '-' EXPRESSION .   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+    '*' 	shift, and go to state 54
+    '/' 	shift, and go to state 55
+
+    $default	reduce using rule 23 (EXPRESSION)
+
+
+
+state 70
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION '*' EXPRESSION .   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+
+
+    $default	reduce using rule 24 (EXPRESSION)
+
+
+
+state 71
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 22)
+    EXPRESSION  ->  EXPRESSION . '-' EXPRESSION   (rule 23)
+    EXPRESSION  ->  EXPRESSION . '*' EXPRESSION   (rule 24)
+    EXPRESSION  ->  EXPRESSION . '/' EXPRESSION   (rule 25)
+    EXPRESSION  ->  EXPRESSION '/' EXPRESSION .   (rule 25)
+
+
+    $default	reduce using rule 25 (EXPRESSION)
+
+
+
+state 72
+
+    STMT  ->  while_ '(' BOOLEXPR ')' STMT . ';'   (rule 11)
+
+    ';' 	shift, and go to state 76
+
+
+
+state 73
+
+    STMT  ->  print '(' EXPRESSION ')' ';' .   (rule 13)
+
+    $default	reduce using rule 13 (STMT)
+
+
+
+state 74
+
+    STMT  ->  read '(' UID ')' ';' .   (rule 12)
+
+    $default	reduce using rule 12 (STMT)
+
+
+
+state 75
+
+    STMT  ->  if_ '(' BOOLEXPR ')' STMT DUMMY . else_ STMT ';'   (rule 10)
+
+    else_	shift, and go to state 77
+
+
+
+state 76
+
+    STMT  ->  while_ '(' BOOLEXPR ')' STMT ';' .   (rule 11)
+
+    $default	reduce using rule 11 (STMT)
+
+
+
+state 77
+
+    STMT  ->  if_ '(' BOOLEXPR ')' STMT DUMMY else_ . STMT ';'   (rule 10)
+
+    error	shift, and go to state 17
+    ID  	shift, and go to state 6
+    if_ 	shift, and go to state 18
+    while_	shift, and go to state 19
+    print	shift, and go to state 20
+    read	shift, and go to state 21
+    '{' 	shift, and go to state 22
+
+    UID 	go to state 24
+    STMT	go to state 78
+
+
+
+state 78
+
+    STMT  ->  if_ '(' BOOLEXPR ')' STMT DUMMY else_ STMT . ';'   (rule 10)
+
+    ';' 	shift, and go to state 79
+
+
+
+state 79
+
+    STMT  ->  if_ '(' BOOLEXPR ')' STMT DUMMY else_ STMT ';' .   (rule 10)
+
+    $default	reduce using rule 10 (STMT)
+
+
+
+state 80
+
+    $   	go to state 81
+
+
+
+state 81
+
+    $   	go to state 82
+
+
+
+state 82
+
+    $default	accept

@@ -1,0 +1,24 @@
+ Prog Sqrt {  /* Square root */
+ var a:float,
+     x:float,
+     delta:float,
+     stop:int;
+
+      read( a);
+      x is a/2.0;
+      stop is 0;
+      while (stop==0) {
+            x is x/2.0+a/(2.0*x);
+            delta is  x*x-a;
+            if (delta < 0.0001)
+               if (delta > 0 - 0.0001) /* Small delta */
+                       stop is 1
+                       else     {}
+
+               else {};
+       };
+       print( a);
+       print( x);
+ }.
+
+

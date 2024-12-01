@@ -1,0 +1,15 @@
+ Prog Gcd {  /* Euclid's Algorithm */
+ var a:int,
+     b:int;
+      read( a);
+      read (b);
+      while (a*b > 0 ) {
+          if (a<b)
+              b is b-(b/a)*a;
+             else a is a-(a/b)*b;;
+          
+      };;
+      if (a==0)
+          println( b);
+         else println( a);;
+}.

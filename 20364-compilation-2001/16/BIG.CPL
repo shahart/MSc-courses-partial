@@ -1,0 +1,49 @@
+Prog Bigtest {   /* General Test Program */
+var  a: int,
+     b: int,
+     c: float,
+     D: float;
+     println( 1);
+     println( 1.123);
+
+     a  is  1;
+     println( a);
+
+     b is a;
+     println( b);
+
+     c is 1.1234+(1-1);
+     println( c);
+
+     D is c;
+     println( D);
+
+     c is 100;
+     println( c);
+
+     c is a;
+     println( c);
+
+     println( 1+2+3);
+     println( 1.1+2.2);
+     println( 1+2.2);
+     println( 1+2*3);
+     println( 1.1*2.2);
+     println( 1*2.2);
+
+     if (1<2)  println(1) ;else println( 0);;
+     if (1==2) println( 0); else println( 1);;
+     if (1>2)  println( 0); else println( 1); ;
+
+     if (1.0<2.0) println( 1); else println( 0);;
+     if (1.0>2.0) println( 0); else println( 1);;
+                                                
+     if (1.0==1)  println( 1); else println( 0); ;
+
+     a is 1;
+     while (a>0) {
+           read( a);
+           read (c);
+           println( a*c-c/a);
+          };;
+}.

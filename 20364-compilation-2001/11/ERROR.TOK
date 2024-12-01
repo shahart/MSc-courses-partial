@@ -1,0 +1,7 @@
+Token             Lexeme/Attr
+-----             -----------
+RELOP              =
+REAL_NUMBER        5
+REAL_NUMBER        -0.004
+REAL_NUMBER        -5.6e12
+CONSTANT_SYMBOL    'prolog is a langua

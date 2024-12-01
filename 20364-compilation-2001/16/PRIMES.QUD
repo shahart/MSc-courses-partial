@@ -1,0 +1,41 @@
+IPRT 2  
+IPRT 3  
+IASN c 2 
+IASN a 5 
+  ILSS _i0 a 100
+  JMPZ 40 _i0 
+IASN b 3 
+IASN stop 1 
+ITOR _f0 a 
+RDIV a2 _f0 2.
+RASN x a2 
+  RMLT _f0 x x
+  ITOR _f1 a 
+  RSUB _f0 _f0 _f1
+  RGRT _i1 _f0 10.
+  JMPZ 21 _i1 
+RMLT _f0 x 0.5
+RDIV _f1 a2 x
+RADD x _f0 _f1
+JUMP 12  
+  ITOR _f1 b 
+  ITOR _f0 stop 
+  RMLT _f0 x _f0
+  RLSS _i1 _f1 _f0
+  JMPZ 34 _i1 
+IDIV _i2 a b
+IMLT _i2 _i2 b
+IEQL _i2 _i2 a
+JMPZ 32 _i2 
+  IASN stop 0 
+  JUMP 33  
+IADD b b 2
+  JUMP 21  
+IEQL _i1 stop 1
+JMPZ 38 _i1 
+  IPRT a  
+  IADD c c 1
+IADD a a 2
+JUMP 5  
+  IPRT c  
+  HALT   

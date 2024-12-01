@@ -21,14 +21,14 @@ public class ErasePic extends JPanel implements ActionListener {
     
     public void paintComponent(Graphics g) {
     	if (frozen) {
-         // super.paintComponent(g); // ΰιο ωιξεω (!) αβμμ ωδφιεψ ςμ λμ ξωθη διιωεν
+         // super.paintComponent(g);  // ΧΧ™Χ Χ©Χ™ΧΧ•Χ© (!) Χ‘Χ’ΧΧ Χ©Χ”Χ¦Χ™Χ•Χ¨ ΧΆΧ Χ›Χ ΧΧ©ΧΧ— Χ”Χ™Χ™Χ©Χ•Χ
             g.drawImage(img,0,0,MAX_X,MAX_Y,this);
     	}
         else {
       	    g.setColor(getBackground());
-			int x=(int)(Math.random()*MAX_X);    // δβψμϊ πχεγδ μξηιχδ
+			int x=(int)(Math.random()*MAX_X);    // Χ”Χ’Χ¨ΧΧª Χ Χ§Χ•Χ“Χ” ΧΧΧ—Χ™Χ§Χ” 
 			int y=(int)(Math.random()*MAX_Y);
-    	    g.fillRect(x,y,4,4);                 // ξηιχϊ ψιαες χθο
+    	    g.fillRect(x,y,4,4);    // ΧΧ—Χ™Χ§Χª Χ¨Χ™Χ‘Χ•ΧΆ Χ§ΧΧ
         }
     }
     
@@ -38,12 +38,12 @@ public class ErasePic extends JPanel implements ActionListener {
     
     public void startAnim() {
     	if (timer==null) {
-    		// "erase" λτϊεψ
+    		// "erase" Χ›Χ¤ΧªΧ•Χ¨
     		timer=new Timer(5,this);
     		timer.start();
     	}
     	else if (!timer.isRunning())
-    	    // "reset" λτϊεψ
+    	    // "reset" Χ›Χ¤ΧªΧ•Χ¨
     	    timer.restart();
     }
     

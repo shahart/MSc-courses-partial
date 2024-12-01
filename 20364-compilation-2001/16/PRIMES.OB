@@ -1,0 +1,56 @@
+  1 IPRT         2#
+  2 IPRT         3#
+  3 IASN         1          2#
+  4 IASN         2          5#
+  5 ILSS         3          2        100#
+  6 JMPZ        40          3 
+  7 IASN         4          3#
+  8 IASN         5          1#
+  9 ITOR         6          2 
+ 10 RDIV         7          6     2.0000#
+ 11 RASN         8          7 
+ 12 RMLT         6          8          8 
+ 13 ITOR         9          2 
+ 14 RSUB         6          6          9 
+ 15 RGRT        10          6    10.0000#
+ 16 JMPZ        21         10 
+ 17 RMLT         6          8     0.5000#
+ 18 RDIV         9          7          8 
+ 19 RADD         8          6          9 
+ 20 JUMP        12 
+ 21 ITOR         9          4 
+ 22 ITOR         6          5 
+ 23 RMLT         6          8          6 
+ 24 RLSS        10          9          6 
+ 25 JMPZ        34         10 
+ 26 IDIV        11          2          4 
+ 27 IMLT        11         11          4 
+ 28 IEQL        11         11          2 
+ 29 JMPZ        32         11 
+ 30 IASN         5          0#
+ 31 JUMP        33 
+ 32 IADD         4          4          2#
+ 33 JUMP        21 
+ 34 IEQL        10          5          1#
+ 35 JMPZ        38         10 
+ 36 IPRT         2 
+ 37 IADD         1          1          1#
+ 38 IADD         2          2          2#
+ 39 JUMP         5 
+ 40 IPRT         1 
+ 41 HALT
+
+****************************
+ID TABLE (id, address, type)
+****************************
+          c   1  int
+          a   2  int
+        _i0   3  int
+          b   4  int
+       stop   5  int
+        _f0   6 real
+         a2   7 real
+          x   8 real
+        _f1   9 real
+        _i1  10  int
+        _i2  11  int

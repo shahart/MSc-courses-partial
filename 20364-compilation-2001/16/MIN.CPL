@@ -1,0 +1,9 @@
+Prog Min
+{
+  var b: int, a:int;
+                
+    read( b);
+    read(a);
+    if (a< b ) println (a);
+        else println(b);   ;
+}.

@@ -673,9 +673,9 @@ void main()
   hf_scan(i);
   i=hf_create("takes",   10+10+3+1);
              //12345678901234567890123
-  hf_insert(i,"132825226|DBMS-----|095");
+  hf_insert(i,"1|DBMS-----|095");
   hf_insert(i,"2--------|DBMS adv-|071");
-  hf_insert(i,"332825226|OOSE-----|100");
+  hf_insert(i,"3|OOSE-----|100");
   hf_insert(i,"4");
   hf_insert(i,"5");  hf_insert(i,"6");   hf_insert(i,"7");  hf_insert(i,"8");
   hf_insert(i,"9");  hf_insert(i,"10");  hf_insert(i,"11");

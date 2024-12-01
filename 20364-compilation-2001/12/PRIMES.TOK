@@ -1,0 +1,99 @@
+Prog               
+INT_NUM            9
+ID                 Primes
+BLOCK_BEGIN        
+var                
+ID                 a
+COLON              
+int                
+COMMA              
+ID                 b30490940
+COLON              
+int                
+COMMA              
+ID                 stop
+COLON              
+int                
+POINT-COMMA        
+println            
+LPAR               
+INT_NUM            2
+MULOP              /
+RPAR               
+POINT-COMMA        
+println            
+LPAR               
+INT_NUM            3
+RPAR               
+POINT-COMMA        
+ID                 a
+ASSIGNOP           
+INT_NUM            5
+POINT-COMMA        
+while              
+LPAR               
+ID                 a
+RELOP              <
+INT_NUM            34
+RPAR               
+BLOCK_BEGIN        
+ID                 b
+ASSIGNOP           
+INT_NUM            2
+POINT-COMMA        
+ID                 stop
+ASSIGNOP           
+INT_NUM            1
+POINT-COMMA        
+while              
+LPAR               
+ID                 b
+RELOP              <
+ID                 stop
+MULOP              *
+ID                 a
+MULOP              /
+INT_NUM            2
+RPAR               
+BLOCK_BEGIN        
+if                 
+LPAR               
+ID                 a
+MULOP              /
+ID                 b
+MULOP              *
+ID                 b
+RELOP              ==
+ID                 a
+RPAR               
+ID                 stop
+ASSIGNOP           
+INT_NUM            0
+POINT-COMMA        
+ID                 b
+ASSIGNOP           
+ID                 b
+ADDOP              +
+INT_NUM            1
+POINT-COMMA        
+BLOCK_END          
+if                 
+LPAR               
+ID                 stop
+RELOP              ==
+INT_NUM            1
+RPAR               
+println            
+LPAR               
+ID                 a
+RPAR               
+POINT-COMMA        
+ID                 a
+ASSIGNOP           
+ID                 a
+ADDOP              +
+INT_NUM            2
+POINT-COMMA        
+BLOCK_END          
+BLOCK_END          
+POINT              

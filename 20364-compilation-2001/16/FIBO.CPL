@@ -1,0 +1,19 @@
+ Prog Fibo {  /* Fibonacci Sequence */
+ var a: int,
+     b: int,
+     c: int;
+    a is 0;
+    b is 1;
+     while (a<10) {
+     a is a;
+     };;
+    while (a<1000) {   /* This is the upper limit, you may change it */
+     while (a<10) {
+     a is a;
+     };;
+       print( a);
+       c is a+b;
+       a is b;
+       b is c;
+    };;
+ }.

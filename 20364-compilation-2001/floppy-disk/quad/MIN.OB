@@ -1,0 +1,10 @@
+  1 RINP         1 
+  2 RINP         2 
+  3 RLSS       ???        ???        ??? 
+  4 JMP
+
+****************************
+ID TABLE (id, address, type)
+****************************
+          a   1 real
+          b   2 real

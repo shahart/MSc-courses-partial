@@ -1,0 +1,7 @@
+Prog Hi {
+var i:float,b:int;
+print(6*2-3);
+read(i);
+while (3*4<6+7) {};;
+while ((i<7 and i>4) or (i=3)) i is b;;
+}.

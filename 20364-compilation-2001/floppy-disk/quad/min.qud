@@ -1,0 +1,9 @@
+RINP a
+RINP b
+RLSS less,a,b
+JMPZ 6,less
+JMP 8
+RPRT a
+JMP 9
+RPRT b
+HALT

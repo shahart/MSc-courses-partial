@@ -1,0 +1,22 @@
+  1 IINP         1 
+  2 IINP         2 
+  3 IDIV         3          1          2 
+  4 IPRT         3 
+  5 IASN         4          0#
+  6 ILSS         5          1          2 
+  7 JMPZ         9          5 
+  8 JUMP        12 
+  9 ISUB         1          1          2 
+ 10 IADD         4          4          1#
+ 11 JUMP         6 
+ 12 IPRT         4 
+ 13 HALT
+
+****************************
+ID TABLE (id, address, type)
+****************************
+      first   1  int
+     second   2  int
+     result   3  int
+      count   4  int
+       less   5  int

@@ -1,0 +1,32 @@
+CFG Grammar for the programming language L
+__________________________________________
+
+
+PROGRAM      -->     prog  id  ;  DECLARATION  begin  STMTLIST  END
+
+END          -->     end     .  /* (Note the endpoint!) */
+
+DECLARATION  -->     var  DECLARLIST  ;
+
+DECLARLIST   -->     DECLARLIST  ,  id  :  TYPE
+               |     id  :  TYPE
+
+TYPE         -->     int
+               |     real
+
+STMTLIST     -->     STMTLIST  STATEMENT  ;
+               |     epsilon
+
+STATEMENT    -->     id  :=  EXPRESSION
+               |     print  EXPRESSION
+               |     read  id
+               |     if  BOOLEXP  then  STMTLIST  else  STMTLIST  fi 
+               |     while  BOOLEXP  do  STMTLIST  od
+
+BOOLEXP      -->     EXPRESSION  relop  EXPRESSION
+
+EXPRESSION   -->     EXPRESSION  matop  EXPRESSION
+               |     (  EXPRESSION  )
+               |     id
+               |     num
+
