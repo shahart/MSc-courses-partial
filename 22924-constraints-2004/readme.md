@@ -42,3 +42,4 @@ Density tightness
 
 המסקנה החשובה היא ש**סדר משתנים משפר בסדרי גודל!!!!**
 
+### see also .github/copilot-instructions.md
