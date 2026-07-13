@@ -1,0 +1,43 @@
+Shahar, 0
+
+Prog               
+ID                 Min
+BLOCK_BEGIN        
+var                
+ID                 a
+COLON              
+float              
+COMMA              
+ID                 b
+COLON              
+ID                 float2
+POINT-COMMA        
+read               
+LPAR               
+ID                 a
+RPAR               
+POINT-COMMA        
+read               
+LPAR               
+ID                 b
+RPAR               
+POINT-COMMA        
+if                 
+LPAR               
+ID                 a
+RELOP              <
+ID                 b
+RPAR               
+println            
+LPAR               
+ID                 a
+RPAR               
+POINT-COMMA        
+else               
+ID                 peintln
+LPAR               
+ID                 b
+RPAR               
+POINT-COMMA        
+BLOCK_END          
+POINT              

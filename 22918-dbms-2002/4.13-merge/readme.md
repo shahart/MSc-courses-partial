@@ -1,5 +1,9 @@
 # מיון מיזוג חיצוני
 
+```
+g++ -o merge sort_main.cpp data_management.cpp extsort_algorithm.cpp && ./merge
+```
+
 ## Q
 
 1.	הדרישה

@@ -26,7 +26,7 @@ void Print_Db_File();
 
 //gets the actual size of the database file
 //(the number of pages until EOF)
-int Get_Db_Size;
+extern int Get_Db_Size;
 
 //initializes a DEMO database file of size 'f_size' for external sort testing
 //if f_size is greater then FILE_SIZE, only FILE_SIZE pages

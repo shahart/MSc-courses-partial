@@ -93,13 +93,13 @@ void Zero_Pass()
 	while(curr_pos < Get_Db_Size)
 	{
 		Load_Pages(BUFFER_SIZE,curr_pos, 0);
-		qsort( (BUFFER_T)buffer,BUFFER_SIZE*PAGE_SIZE,sizeof(REC_T),compare);
+		qsort( buffer,BUFFER_SIZE*PAGE_SIZE,sizeof(REC_T),compare);
 		Correct_EOF();
 		Unload_Pages(BUFFER_SIZE,curr_pos, 0,db_file);
 		curr_pos+=BUFFER_SIZE;
 	}
 
-	fcloseall();
+	fclose(db_file);
 	Init_File(db_file);
 }
 
@@ -369,8 +369,8 @@ int Output_Min(const int min_frame, const int pass, const int f_size)
 //copies the contents of file 'source' to file 'dest'
 void Copy_Files()
 {
-	fcloseall();
-	system("copy "TEMP_FILE" "FILE_SORTED); 
+	fclose(db_file);
+	system("cp " TEMP_FILE " " FILE_SORTED); 
 	Init_File(db_file);
 /*	//must be loaded from source and unloaded to dest
 	int i = 0;

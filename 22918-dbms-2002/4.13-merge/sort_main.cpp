@@ -14,7 +14,7 @@ BUFFER_T buffer;	//system buffer
 int loc;
 int size;
 
-void main(int argc,char *argv[])
+int main(int argc,char *argv[])
 {	
 	if (argc!=3)
 		printf("merge loc size\n");

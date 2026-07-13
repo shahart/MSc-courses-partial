@@ -6,7 +6,7 @@
 #ifndef _global_defs_h
 #define _global_defs_h
 
-#include "..\share.h" 
+#include "../SHARE.H" 
 
 #define TEMP_FILE "temp_file.txt"
 

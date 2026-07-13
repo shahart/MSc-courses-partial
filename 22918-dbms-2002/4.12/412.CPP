@@ -25,9 +25,8 @@ int io_counter;
 #include <string.h>
 #include <assert.h>
 #include <stdlib.h>
-#include <process.h>
-
-#include "..\share.h"
+#include <unistd.h>
+#include "../SHARE.H"
 
 #define MAXINT 32767
 
@@ -122,7 +121,7 @@ void dm_init(int del=0)
   else {
 //#else
     // add backup in case assert fails
-    system("copy "DB" "DB"2 > nul");
+    system("cp " DB " " DB "2 2>/dev/null");
     dm_database=fopen(DB,"rb+");
     FILE* f=fopen(BITMAP,"rb");
     fread(dm_bitmap_full,sizeof(dm_bitmap_full[0]),MAX_PAGES,f);
@@ -800,18 +799,20 @@ void merge_sort(int file,int fpos,int flen)
   rec_size=hfp_record_size[file];
   hf_delete_all(file);
   char name[80],sfpos[10],sflen[10];
-  itoa(fpos,sfpos,10);
-  itoa(flen,sflen,10);
+  snprintf(sfpos, sizeof(sfpos), "%d", fpos);
+  snprintf(sflen, sizeof(sflen), "%d", flen);
   strcpy(name,strchr(hf_brief(),file+'0')+strlen("x-"));
   *(strchr(name,file+'1')-1)=0;
   file=hf_create(name,rec_size);
-  if (spawnl(P_WAIT,"..\\merge\\debug\\merge.exe","..\\merge\\debug\\merge.exe",sfpos,sflen,NULL)<0) 
+  char cmd[256];
+  snprintf(cmd, sizeof(cmd), "../merge/debug/merge %s %s", sfpos, sflen);
+  if (system(cmd)!=0) 
     printf("merge not found\n");
   hf_get(file,FILE_SORTED);
   dbms_restart();
 }
 
-void main()
+int main()
 {
   int recreate=1;
 #ifdef TRACE
@@ -1081,9 +1082,9 @@ void hash2_perform(char *fname,char* f2name)
 	// scan file2 and probe for matching file1's tuples
 
     FILE *f2=fopen("2.txt","rb");
-	for (j=0; j<HASH_BUCKET_SIZE; j++) {
+	for (int k=0; k<HASH_BUCKET_SIZE; k++) {
 	
-	  fseek(f2,i*REC_SIZE*HASH_BUCKET_SIZE+j*REC_SIZE,SEEK_SET);
+	  fseek(f2,i*REC_SIZE*HASH_BUCKET_SIZE+k*REC_SIZE,SEEK_SET);
  	  char str2[REC_SIZE+5];
 	  fgets(str2,32767,f2);
 

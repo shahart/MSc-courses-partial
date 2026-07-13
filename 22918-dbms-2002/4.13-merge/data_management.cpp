@@ -4,6 +4,7 @@
 
 #include "data_management.h"
 PAGE_T p; //used for reading a page
+int Get_Db_Size;
 
 /********************** external variables *********************/
 

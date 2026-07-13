@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "lex.h"
-#include "symbol.h"
+#include "LEX.H"
+#include "SYMBOL.H"
 
 #define MAX_FILE_NAME   20
 #define MAX_FILE_LENGTH 25000
@@ -16,7 +16,7 @@ const char *token_names[] =
     "FLOAT_NUM", "INT_NUM", "ID"
 };
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     char *input_file_name, *extension, output_file_name[MAX_FILE_NAME];
     FILE *input_file, *token_file, *list_file;
@@ -40,7 +40,7 @@ void main(int argc, char *argv[])
     extension = strtok(input_file_name, ".");
     extension = strtok(NULL, ".");
 
-    if (strcmp(strlwr(extension), "cpl") != 0) {
+    if (strcasecmp(extension, "cpl") != 0) {
         printf("Usage: cla <filename>.cpl\n");
         exit(1);
     }
@@ -89,5 +89,6 @@ void main(int argc, char *argv[])
         }
         token = lex_nexttoken(lexbuf, index, line_no, list_file, old_index);
     }
+
+    return 0;
 }
-

@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "lex.h"
+#include "LEX.H"
 
 #define MAX_FILE_NAME   20
 #define MAX_FILE_LENGTH 25000
@@ -22,7 +22,7 @@ const char *token_names[] =
     "UNIDENTIFIED"
 };
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     char *input_file_name, *extension, token_file_name[MAX_FILE_NAME];
     FILE *input_file, *token_file;

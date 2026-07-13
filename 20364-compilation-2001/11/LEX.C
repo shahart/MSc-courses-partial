@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
-#include "lex.h"
+#include "LEX.H"
 
 /*********************************************************** PRIVATE SECTION */
 
@@ -53,7 +53,7 @@ int match(char *lexbuf, int *index, const char *strings[], int check_lookahead)
     char c;
 
     for (i = 0; strcmp(strings[i], END_OF_ARRAY) != 0; i++)
-        if (strnicmp(strings[i], lexbuf+(*index), strlen(strings[i])) == 0) {
+        if (strncasecmp(strings[i], lexbuf+(*index), strlen(strings[i])) == 0) {
             c = lexbuf[(*index)+strlen(strings[i])];
 
             /* check_lookahead? check if what we found is not variable */
@@ -86,7 +86,7 @@ Token_Type lex_nexttoken(char *lexbuf, int *token_beginning)
         *token_beginning += strlen(check_strings[keyword]);
         if (keyword <= BAGOF) {
             strcpy(token.lexeme, "");
-            token.token = keyword;
+            token.token = (Tokens)keyword;
         }
         else if (strcmp(token.lexeme, "IS") == 0) {
             strcpy(token.lexeme, "");
@@ -119,7 +119,7 @@ Token_Type lex_nexttoken(char *lexbuf, int *token_beginning)
         else if (4 <= keyword && keyword < 12)
             token.token = RELOP;
         else
-            token.token = keyword-15 + IMPOR;
+            token.token = (Tokens)(keyword-15 + IMPOR);
 
         return token;
     }
@@ -283,4 +283,3 @@ Token_Type lex_nexttoken(char *lexbuf, int *token_beginning)
         }
     }
 }
-

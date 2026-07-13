@@ -3,8 +3,8 @@
 #include <ctype.h>
 #include <stdio.h>
 
-#include "lex.h"
-#include "symbol.h"
+#include "LEX.H"
+#include "SYMBOL.H"
 
 /*********************************************************** PRIVATE SECTION */
 
@@ -57,7 +57,7 @@ void error(char *message, int position, FILE *list_file)
 {
     while (position--)
         fprintf(list_file, " ");
-    fprintf(list_file,"       © Lexical Error: %s!\n", message);
+    fprintf(list_file,"       ï¿½ Lexical Error: %s!\n", message);
 }
 
 /*********************************************************** PUBLIC SECTION */
@@ -205,4 +205,3 @@ Token_Type lex_nexttoken(char *lexbuf, int *token_beginning, int *line_no, FILE 
         }
     }
 }
-

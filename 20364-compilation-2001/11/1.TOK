@@ -6,7 +6,7 @@ VARIABLE           A
 VARIABLE           _
 VARIABLE           _
 OTHEROP            ;
-REAL_NUMBER        34
+INTEGER_NUMBER     34
 RELOP              =:=
 ABORT              
 ADDOP              -

@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "symbol.h"
+#include "SYMBOL.H"
 
 #define NUMBER_OF_ITEMS 211 /* should be prime number */
 
@@ -74,4 +74,3 @@ Token_Type symbol_lookup(char *lexeme)
     ret_token.token = END_OF_FILE; /* not found */
     return (ret_token);
 }
-

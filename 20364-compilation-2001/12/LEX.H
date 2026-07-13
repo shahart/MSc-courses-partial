@@ -24,4 +24,3 @@ typedef struct Token_Type
 Token_Type lex_nexttoken(char *lexbuf, int *index, int *line_no, FILE *list_file, int *old_index);
 
 #endif
-

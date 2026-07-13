@@ -1,5 +1,8 @@
 # ממ"ן 11 #
 
+```
+gcc -o lexpro LEXPRO.C LEX.C && ./lexpro 1.PRO
+```
 
 ## שאלה 1 – מיני HTML ##
 
